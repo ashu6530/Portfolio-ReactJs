@@ -1,0 +1,83 @@
+/* contact.css */
+
+/* Common styles */
+.contact__container{
+    display: grid;
+    
+}
+.contact__container h5{
+    font-size: 1.5rem;
+    letter-spacing: 0.5rem;
+}
+.contact_option {
+    font-weight: 500;
+  }
+  
+  .contact_option a {
+    display: block;
+    color: var(--color-primary);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 2rem;
+    border-radius: 0.2rem;
+    background: var(--color-light);
+  }
+  
+  textarea {
+    height: 150px;
+  }
+  
+  .icon {
+    margin-right: 0.4rem;
+  }
+  
+  /* Contact options */
+  .contact__options {
+    margin-right: 2rem; /* Reduced margin for mobile */
+    display: flex;
+    justify-content: center;
+    margin:2rem 0;
+  }
+  
+  /* Form container */
+  .form__container {
+    border: 2px solid var(--color-primary);
+    padding: 20px;
+    border-radius: 0.9rem;
+    max-width: 400px; /* Adjust max-width for responsiveness */
+    width: 90%; /* Adjust width for responsiveness */
+    margin: 0 auto; /* Center the form */
+  }
+  .form__container .btn{
+    width: fit-content !important;
+  }
+  .submit{
+    margin-top:0.8rem;
+    color: green;
+    text-align: center;
+  }
+ 
+  
+  /* Responsive adjustments */
+  @media only screen and (max-width: 600px) {
+    /* Adjustments for screens less than 600px wide (typically mobile devices) */
+    .contact__options {
+      margin-right: 0; /* Remove right margin for mobile */
+    }
+  
+    .form__container {
+      padding: 15px; /* Reduce padding for mobile */
+    }
+  }
+  
